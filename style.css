@@ -3,6 +3,30 @@
     margin: 0px;
     box-sizing: border-box;
 }
+.mark {
+    height: 150px;
+    width: 150px;
+}
+.sophia {
+    height: 150px;
+    width: 150px;
+}
+.connor {
+    height: 150px;
+    width: 150px;
+}
+.nanny {
+    height: 150px;
+    width: 150px;
+}
+.astro {
+    height: 150px;
+    width: 150px;
+}
+.grassy {
+    height: 150px;
+    width: 150px;
+
 body{
     background: #6A8765;
 }
