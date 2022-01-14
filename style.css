@@ -3,6 +3,9 @@
     margin: 0px;
     box-sizing: border-box;
 }
+body{
+    background: #6A8765;
+}
 .mark {
     height: 150px;
     width: 150px;
@@ -26,7 +29,3 @@
 .grassy {
     height: 150px;
     width: 150px;
-
-body{
-    background: #6A8765;
-}
