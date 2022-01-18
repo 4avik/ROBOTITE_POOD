@@ -1,15 +1,22 @@
 *{
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 body{
-    display: flex;
     background: #6A8765;
 }
+
+.container1 {
+    Display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    Display: flex;
+    justify-content: center;
+}
+
 .mark {
     height: 150px;
     width: 170px;
