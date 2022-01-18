@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 body{
+    display: flex;
     background: #6A8765;
     display: flex;
 }
