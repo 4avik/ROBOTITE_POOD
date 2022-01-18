@@ -1,8 +1,39 @@
 *{
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 body{
+    display: flex;
     background: #6A8765;
+    display: flex;
+}
+.mark {
+    height: 150px;
+    width: 150px;
+    
+}
+.sophia {
+    height: 150px;
+    width: 150px;
+}
+.connor {
+    height: 150px;
+    width: 150px;
+}
+.nanny {
+    flex-wrap: wrap;
+    height: 150px;
+    width: 150px;
+}
+.astro {
+    height: 150px;
+    width: 150px;
+}
+.grassy {
+    height: 150px;
+    width: 150px;
 }
