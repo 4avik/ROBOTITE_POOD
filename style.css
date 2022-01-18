@@ -1,5 +1,4 @@
 *{
-    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
@@ -7,6 +6,7 @@
     box-sizing: border-box;
 }
 body{
+    display: flex;
     background: #6A8765;
 }
 .mark {
