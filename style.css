@@ -20,11 +20,13 @@ body{
 .mark {
     height: 150px;
     width: 150px;
+    border-radius: 15px 15px 0px 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .sophia {
     height: 150px;
     width: 150px;
+    border-radius: 15px 15px 0px 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .connor {
@@ -33,28 +35,18 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 170px;
     border-radius: 15px 15px 0px 0px;
-}
-.sophia {
-    height: 150px;
-    width: 170px;
-    border-radius: 15px 15px 0px 0px;
-
-}
-.connor {
-    height: 150px;
-    width: 170px;
-    border-radius: 15px 15px 0px 0px;
-
 }
 .nanny {
     flex-wrap: wrap;
     height: 150px;
     width: 150px;
+    border-radius: 15px 15px 0px 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .astro {
     height: 150px;
     width: 150px;
+    border-radius: 15px 15px 0px 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .grassy {
@@ -65,19 +57,6 @@ body{
     border-radius: 15px 15px 0px 0px;
 
 }
-.astro {
-    height: 150px;
-    width: 170px;
-    border-radius: 15px 15px 0px 0px;
-
-}
-.grassy {
-    height: 150px;
-    width: 170px;
-    border-radius: 15px 15px 0px 0px;
-
-}
-
 .mark-price {
     height: 60px;
     width: 170px;
