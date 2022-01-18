@@ -37,7 +37,6 @@ body{
     border-radius: 15px 15px 0px 0px;
 }
 .nanny {
-    flex-wrap: wrap;
     height: 150px;
     width: 150px;
     border-radius: 15px 15px 0px 0px;
