@@ -7,116 +7,155 @@
 body{
     background: #6A8765;
 }
+/* testi algus*/
+.header {
+  
+    padding: 10px;
+    background: #3F9BAF;
+    color: white;
+    font-size: 10px;
+    height: 152px;
+    width: auto;
+  }
+  .searchy{ 
+      width: 100px;
+      width: 100px;
+    
+  }
+  .search{
+    width: 110px;
+    height: 74px;
+    margin-left: 600px;
+    padding: 24px;
+    background-color: black;
+    border-radius: 12px;
+  }
+  .search p{
+      text-align: center;
+      font-weight: 500;
+      font-size: 20px;
+      font-family: 'Archivo', sans-serif;
+  }
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 30%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 7%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+/* testi lõpp*/
 
 .container1 {
     Display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .container2 {
     Display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
-
-.MARK {
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.Sophia {
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.Connor {
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.Nanny {
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.Astro {
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.Grassy {
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 
 .mark {
-    height: 200px;
-    width: 220px;
+    height: 150px;
+    width: 150px;
     border-radius: 15px 15px 0px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .sophia {
-    height: 200px;
-    width: 220px;
+    height: 150px;
+    width: 150px;
     border-radius: 15px 15px 0px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .connor {
-    height: 200px;
-    width: 220px;
+    height: 150px;
+    width: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 170px;
     border-radius: 15px 15px 0px 0px;
 }
 .nanny {
-    height: 200px;
-    width: 220px;
+    height: 150px;
+    width: 150px;
     border-radius: 15px 15px 0px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .astro {
-    height: 200px;
-    width: 220px;
+    height: 150px;
+    width: 150px;
     border-radius: 15px 15px 0px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .grassy {
-    height: 200px;
-    width: 220px;
+    height: 150px;
+    width: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 170px;
     border-radius: 15px 15px 0px 0px;
+
 }
 .mark-price {
     height: 60px;
-    width: 220px;
+    width: 170px;
     background-color: #3F9BAF;
     border-radius: 0px 0px 15px 15px;
 }
 
 .sophia-price {
     height: 60px;
-    width: 220px;
+    width: 170px;
     background-color: #3F9BAF;
     border-radius: 0px 0px 15px 15px;
 }
 
 .connor-price {
     height: 60px;
-    width: 220px;
+    width: 170px;
     background-color: #3F9BAF;
     border-radius: 0px 0px 15px 15px;
 }
 
 .nanny-price {
     height: 60px;
-    width: 220px;
+    width: 170px;
     background-color: #3F9BAF;
     border-radius: 0px 0px 15px 15px;
 }
 
 .astro-price {
     height: 60px;
-    width: 220px;
+    width: 170px;
     background-color: #3F9BAF;
     border-radius: 0px 0px 15px 15px;
 }
 
 .grassy-price {
     height: 60px;
-    width: 220px;
+    width: 170px;
     background-color: #3F9BAF;
     border-radius: 0px 0px 15px 15px;
 }
