@@ -4,8 +4,13 @@
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
 }
+
+.container {
+    margin-top: 70px; 
+}
+
 body{
-    background: #6A8765;
+    background: #c0f1b8;
 }
 
 .container1 {
@@ -16,6 +21,7 @@ body{
 .container2 {
     Display: flex;
     justify-content: space-evenly;
+    padding-top: 40px;
 }
 
 .MARK {
@@ -48,6 +54,9 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.Grassy img {
+    transform: rotateY(180deg);
+}
 
 .mark {
     height: 200px;
@@ -80,43 +89,61 @@ body{
     border-radius: 15px 15px 0px 0px;
 }
 .mark-price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 60px;
     width: 220px;
-    background-color: #3F9BAF;
+    background-color: #7bcbdd;
     border-radius: 0px 0px 15px 15px;
 }
 
 .sophia-price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 60px;
     width: 220px;
-    background-color: #3F9BAF;
+    background-color: #7bcbdd;
     border-radius: 0px 0px 15px 15px;
 }
 
 .connor-price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 60px;
     width: 220px;
-    background-color: #3F9BAF;
+    background-color: #7bcbdd;
     border-radius: 0px 0px 15px 15px;
 }
 
 .nanny-price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 60px;
     width: 220px;
-    background-color: #3F9BAF;
+    background-color: #7bcbdd;
     border-radius: 0px 0px 15px 15px;
 }
 
 .astro-price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 60px;
     width: 220px;
-    background-color: #3F9BAF;
+    background-color: #7bcbdd;
     border-radius: 0px 0px 15px 15px;
 }
 
 .grassy-price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 60px;
     width: 220px;
-    background-color: #3F9BAF;
+    background-color: #7bcbdd;
     border-radius: 0px 0px 15px 15px;
 }
